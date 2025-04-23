@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gloria Okeke - Media Page</title>
+</head>
+
+<body>
+    <h1>Gloria Okeke's Profile</h1>
+
+<!-- Picture Element with Multiple Sources -->
+<h2>Photo:</h2>
+<picture>
+    <source media="(min-width: 1200px)" srcset="/assets/images/laptop.jpg">
+    <source media="(max-width: 768px)" srcset="/assets/images/tablet.JPG">
+    <source media="(max-width: 480px)" srcset="/assets/images/mobile2.HEIC">
+    <img src="/assets/images/default.JPG" alt="Profile" width="500">
+</picture>
+<p>I'm Gloria, a Frontend Engineering student at AltSchool Africa-a pharmacist in tech, passionate about leveraging technology to solve health-related problems</p>
+<!-- Audio Element -->
+<h2>My Introduction</h2>
+<audio controls>
+    <source src="/assets/audio/_Gave it all_ by Travis Greene _ PAC Center Dance ministry.mp3" type="audio/mpeg">
+</audio>
+
+<!-- Video Element -->
+<h2>My Tech Journey</h2>
+<video width="500" controls>
+    <source src="/assets/videos/Loving God is my (1).mp4" type="video/mp4">
+</video>
+
+<p>
+    <a href="index.html">Back to Profile</a><br> 
+    <a href="table.html">View Courses</a>
+</p>
+</body>
+</html>
